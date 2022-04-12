@@ -1,0 +1,24 @@
+.logo1{  
+  height:12rem;
+  max-height:15rem;
+  width:12rem;
+  max-width:15rem;
+}
+
+.card-color{
+  background-color:#333333;
+}
+
+.color{
+  background-color:#272727;
+}
+
+.forms-color{
+  background-color:#f5f5f5;
+}
+
+.invalid{
+    color:red;
+    font-size:0.85rem;
+    justify-content:start
+}

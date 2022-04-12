@@ -1,0 +1,38 @@
+.logo{
+  max-width:100%;
+  max-height:4rem
+}
+
+.lead{
+  cursor:move;
+  padding:2rem;
+}
+
+.grey{
+  background-color:grey;
+  color:white
+}
+
+.potencial{
+  background-color:#247BA0;
+}
+
+.data{
+  background-color:#006494;
+}
+
+.meeting{
+  background-color:#13293D;
+}
+
+.off-white{
+  background-color:#bfbfbf;
+}
+
+.alert-text{
+  color:#0F5132
+}
+
+.alert{
+  max-width:70vh
+}
