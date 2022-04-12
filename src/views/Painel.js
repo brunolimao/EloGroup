@@ -16,7 +16,7 @@ function Painel() {
   const { state } = useLocation();
   let registered = false;
   if (state !== null) {
-    registered = false;
+    registered = true;
   }
   //Hook do alerta
   const [showAlert, setShowAlert] = useState(registered);
