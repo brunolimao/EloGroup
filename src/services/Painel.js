@@ -18,7 +18,7 @@ const updateLeads = () => {
       let name = localStorage.getItem(key);
       let newLeadName = name.replace('"', '').replace('"', '');
       let aux = 0;
-      potencialLeads.find((lead, index) => {
+      potencialLeads.find((lead) => {
         if (newLeadName === lead.name) {
           aux = 1;
         }

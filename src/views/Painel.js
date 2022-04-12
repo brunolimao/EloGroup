@@ -14,10 +14,11 @@ function Painel() {
 
   //Aparecer ou não alerta 
   const { state } = useLocation();
-  let registered = false;
-  if (state !== null) {
-    registered = true;
+  let registered = true
+  if (state === null || state.registered === false) {
+    registered = false;
   }
+
   //Hook do alerta
   const [showAlert, setShowAlert] = useState(registered);
 
